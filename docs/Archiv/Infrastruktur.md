@@ -1,6 +1,6 @@
-#Infrastruktur:
+# Infrastruktur
 
-### IST-Zustand:
+### IST-Zustand
 - Microsoft Exchange Server
 -	Datenbankserver
 -	Sharepoint
