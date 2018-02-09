@@ -6,6 +6,7 @@
 - Erstellung von [Ausgangssituation](https://github.com/AlSalad/BYOD/blob/master/docs/Archiv/Ausgangssituation.docx)
 - Erstellung von Vergleich von Applikation
 [Samsung Knox](https://github.com/AlSalad/BYOD/issues/5)
+- Erstellung von [Infrastruktur](https://github.com/AlSalad/BYOD/blob/master/docs/Archiv/Infrastruktur.md)
 
 # 2018
 #### 12.02.2018
