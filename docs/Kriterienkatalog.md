@@ -17,11 +17,15 @@
 ### Support
 - Wie weit bietet der Producer Hilfe an?
 
+### Installation
+- Wie lange braucht es damit anzufangen?
+
 ### Ressourcen- und Hardwareaufwand
 - Systemrequirements?
 - Plattformunabhängig? Nur Apple? Nur Android?
 
 ### Cloud
-
+ - Eigene Server oder Cloudlösung?
+ 
 
  
