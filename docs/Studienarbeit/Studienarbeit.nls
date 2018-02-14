@@ -1,0 +1,11 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{DHBW}]\begingroup Duale Hochschule Baden-Württemberg\nomeqref {0.0}
+		\nompageref{1}
+  \item [{OSS}]\begingroup Open Source Software\nomeqref {0.0}
+		\nompageref{1}
+  \item [{Sem}]\begingroup Semester\nomeqref {0.0}\nompageref{1}
+
+\end{thenomenclature}

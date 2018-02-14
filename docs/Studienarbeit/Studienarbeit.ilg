@@ -1,0 +1,14 @@
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning style file /usr/share/texmf-texlive/makeindex/nomencl/nomencl.ist.......
+** Input style error (file = /usr/share/texmf-texlive/makeindex/nomencl/nomencl.ist, line = 70):
+   -- Unknown specifier lethead_prefix.
+** Input style error (file = /usr/share/texmf-texlive/makeindex/nomencl/nomencl.ist, line = 71):
+   -- Unknown specifier lethead_suffix.
+** Input style error (file = /usr/share/texmf-texlive/makeindex/nomencl/nomencl.ist, line = 72):
+   -- Unknown specifier lethead_flag.
+...done (10 attributes redefined, 3 ignored).
+Scanning input file Bachelorarbeit.nlo....done (3 entries accepted, 0 rejected).
+Sorting entries....done (5 comparisons).
+Generating output file Bachelorarbeit.nls....done (11 lines written, 0 warnings).
+Output written in Bachelorarbeit.nls.
+Transcript written in Bachelorarbeit.ilg.
