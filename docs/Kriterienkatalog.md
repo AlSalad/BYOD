@@ -26,6 +26,8 @@
 
 ### Cloud
  - Eigene Server oder Cloudlösung?
- 
 
+ 
+### Veränderungen
+ - Schnell wachsendes oder schrumpfendes  Geräte / User Anzahl 
  
