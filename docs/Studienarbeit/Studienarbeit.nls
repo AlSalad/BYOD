@@ -2,10 +2,15 @@
 
  \nomgroup{A}
 
+  \item [{BYOD}]\begingroup Bring Your Own Device\nomeqref {0.0}
+		\nompageref{1}
   \item [{DHBW}]\begingroup Duale Hochschule Baden-Württemberg\nomeqref {0.0}
+		\nompageref{1}
+  \item [{EMM}]\begingroup Enterprise Mobility Management\nomeqref {0.0}
+		\nompageref{1}
+  \item [{MDM}]\begingroup Mobile Device Management\nomeqref {0.0}
 		\nompageref{1}
   \item [{OSS}]\begingroup Open Source Software\nomeqref {0.0}
 		\nompageref{1}
-  \item [{Sem}]\begingroup Semester\nomeqref {0.0}\nompageref{1}
 
 \end{thenomenclature}
