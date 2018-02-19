@@ -22,7 +22,9 @@ BCOR6mm,						% Bindekorrektur, die den Seitenspiegel um 6mm nach rechts verschi
 \usepackage{xcolor} 			% einfache Verwendung von Farben in nahezu allen Farbmodellen
 \usepackage[intoc]{nomencl} 	% zur Erstellung des Abkürzungsberzeichnisses
 \usepackage{fancyhdr}			% Zusatzpaket zur Gestaltung von Fuß und Kopfzeilen
-\usepackage{graphicx} 
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[ngerman]{cleveref} 
 
 % -----------------------------------------------------------------------------------------------------------------
 % Zum Aktualisieren des Abkürzungsverzeichnisses bitte auf der Kommandozeile folgenden Befehl aufrufen :
@@ -104,13 +106,10 @@ BCOR6mm,						% Bindekorrektur, die den Seitenspiegel um 6mm nach rechts verschi
 
 
 % ---------------------------- Literaturverzeichnis ----------------------------------------------
-
 \begin{thebibliography}{999999}
 
-\bibitem[FoBa03]{foobar2003} Foo, John; Bar, Belinda: \emph{Titel : Untertitel},\\ Verlagsort: Verlag, Jahr der Auflage. S. 10-20
-\bibitem[Le01]{levy2001} Autor Name: \emph{Titel des Buches}, New York: Penguin Books, 2001
 \bibitem[Sa17a]{sam2017}Samsung: \emph{Samsung Knox: mobile Sicherheit für Ihr Unternehmen},\\2017. S.4
-\bibitem[Sa17b]{sam2017b}Samsung: \emph{Mitteilung über die Einstellung von My Knox },\\2017
+\bibitem[Sa17b]{sam2017b}Samsung: \emph{Mitteilung über die Einstellung von My Knox },\\2017, https://my.samsungknox.com/
 
 \end{thebibliography}
 

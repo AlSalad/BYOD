@@ -1,25 +1,6 @@
 \chapter{Systeme}
 \label{cha:systeme}
 Die Entscheidungsgrundlage 
-\section{Samsung Knox}
-
-
-Ist man Besitzer aktueller Samsung-Geräten findet man die Applikation \textit{Sicherer Ordner}\footnote{Sicherer Ordner löste am 19. Dezember 2017 den Vorgänger MyKnox ab {sam2017b} }als vorinstallierte Standardsoftware vor. Mit Öffnen dieser App können, nach Eingabe eines benutzerdefinierten Sicherheitsverfahren, verschiedene Einstellungen getätigt werden. Es ist möglich Dateien oder Apps in diesen ""sicheren Ordner" zu verschieben. Sogar Apps die vorher nicht auf dem Smartphone vorhanden sind, können direkt vom Store geladen und installiert werden.Theoretisch wäre dieser Lösungsansatz genau richtig für die Verwendung von BYOD und zusätzlich sogar kostenlos. Dennoch wäre dies nicht umsetzbar im Enterprise-Umfeld.
-
-Um den Anforderungen an eine BYOD-Lösung der Loco AG gerecht zu werden, benötigt es eine MDM-Möglichkeit. Dafür muss die IT-Administration die Möglichkeit haben die eingesetzten Geräte zu verwalten und somit an die firmeninternen Sicherheitsanforderungen anzupassen. Eine mögliche Lösung bietet Samsung mit der kostenpflichtigen Variante Samsung Knox Premium, die im Folgenden nach dem Kriterienkatalog belichtet werden soll.
-
-
-Das Sicherheitsverfahren der Knox-Plattform aus fünf Komponenten \cite{sam2017}:
-\begin{enumerate}
-\item Mehrschichtige Sicherheit
-\item Root-of-Trust
-\item Secure Boot und Trusted Boot
-\item TrustZone®
-\item SE for Android
-\end{enumerate}
-
-\newpage
-
 
 \section{MobileIron}
 
@@ -31,7 +12,11 @@ Der Hersteller MobileIron unterstützt in seinen Lösungen die  mobilen Endgerä
 MobileIron bietet die drei verschiedenen Bundles „EMM Silver“, „EMM Gold“ oder „EMM Platinum“ seiner Bring Your Own Device Lösung an.
 Das Basispaket „EMM Silver“ beinhaltet die Komponenten „Core“ „Sentry „und „Apps@Work“. Das Paket „EMM Gold“ ist um die Module „Email+“, „Docs@Work“ und „Web@Work“ erweitert. Durch die Wahl des Platinum Pakets ergänzt sich dieses wiederum um „Help@Work“, „Tunnel“, „MobileIron Monitor“ und „ServiceConnect-Integration“.
 
+\begin{figure}[hbt]
+\centering
 \includegraphics[width=0.95\textwidth]{Bilder/mi_1.png} 
+\caption{Mobile Iron Paketmodelle}\label{fig:MobIro1}
+\end{figure}
 
 \subsection {Pakete}
 \subsubsection {Core}
@@ -58,4 +43,58 @@ Der Tunnel von MobileIron bietet die Möglichkeit die Netzwerkkommunikationen ei
 
 Je nach Tarifplänen bzw. Paketangeboten werden neben den genannten Grundfunktionen weitere Features unterstützt. Das Unternehmen selbst betreibt ein sehr flexibles Abrechnungsmodell, welches auf jegliche Bedürfnisse des Endkunden angepasst werden kann. Dabei kann beispielsweise zwischen einer Lizenzierung pro Benutzer (maximal 3 Endgeräte) oder einem Lizenzierungsmodell je nach Endgerät gewählt werden. Neben der Kaufoption von Lizenzen auf Lebenszeit wird auch ein Abonnement angeboten. Neben der klassischen Installation innerhalb des eigenen Netzwerks betreibt MobileIron auch eine eigene Cloud die für die Bereitstellung der Services genutzt werden kann. Falls sich der Endkunde für die Cloudlösung entscheidet kann direkt ein erweiterter Support (SLA) dazu gebucht werden. Für die Installation auf einem eigenen System kann hierbei nur zwischen einem Standard- und Premiumsupport unterschieden werden.  
 
+\begin{figure}[hbt]
+\centering
 \includegraphics[width=0.95\textwidth]{Bilder/mi_2.png} 
+\caption{Mobile Iron Abrechnungsmodell}\label{fig:MobIro2}
+\end{figure}
+
+\newpage
+
+\section{Samsung Knox}
+\subsection{Allgemein}\label{sub:Allgemein}
+Das weltbekannte Unternehmen Samsung hat ebenfalls an einer Sicherheitslösung für die Mobilnutzung im Unternehmen gearbeitet. Als Produkt ist Samsung Knox, in Anlehnung an Hochsicherheitsstützpunkt Fort Knox, im Portfolio von Samsung zu finden.
+Ist man Besitzer aktueller Samsung-Geräten findet man die Applikation \textit{Sicherer Ordner}\footnote{Sicherer Ordner löste am 19. Dezember 2017 den Vorgänger MyKnox ab \cite{sam2017b} }als vorinstallierte Standardsoftware vor. Mit Öffnen dieser App können, nach Eingabe eines benutzerdefinierten Sicherheitsverfahren, verschiedene Einstellungen getätigt werden. Es ist möglich Dateien oder Apps in diesen \flqq sicheren Ordner\frqq  zu verschieben. Sogar Apps die vorher nicht auf dem Smartphone vorhanden sind, können direkt vom Store geladen und installiert werden.Theoretisch wäre dieser Lösungsansatz genau richtig für die Verwendung von BYOD und zusätzlich sogar kostenlos. Dennoch wäre dies nicht umsetzbar im Enterprise-Umfeld.
+
+Um den Anforderungen an eine BYOD-Lösung der Loco AG gerecht zu werden, benötigt es eine MDM-Möglichkeit. Dafür muss die IT-Administration, die Möglichkeit haben die eingesetzten Geräte zu verwalten und somit an die firmeninternen Sicherheitsanforderungen anzupassen. Eine mögliche Lösung bietet Samsung mit der kostenpflichtigen Variante Samsung Knox Premium, die im Folgenden nach dem Kriterienkatalog belichtet werden soll. 
+
+\subsection{Pakete}
+\subsubsection{Knox Platform}
+Das Sicherheitsverfahren der Knox-Plattform besteht, wie in \cref{fig:SamKno1} sichtbar, aus fünf Komponenten.
+\begin{figure}[hbt]
+\centering
+\includegraphics[width=0.95\textwidth]{Bilder/sk_1}
+\caption{Samsung Knox Security Solutions Layers}\label{fig:SamKno1}
+\end{figure}
+
+Die Knox-Plattform setzt bereits in der Hardware-Ebene ein. Der Prozessor ist die Steuereinheit  auf dem bekanntlich das entsprechende Betriebssystem und die Applikationen laufen. Modi bestimmen welche Priorität, welcher Software oder Applikation zugeschrieben werden. So laufen vom Benutzer installierte Apps im Modus \textit{user mode} und haben somit keinen direkten Zugriff auf die Hardware oder auf andere Apps. Die ARM TrustZone beschreibt eine Prozessorarchitektur, die von der Knox-Plattform verwendet wird. Hierbei werden die Modi in \textit{Worlds} eingeteilt. Zum einen die \textit{Normal World}, auf dem standardmäßig alle installierte Software landet und die \textit{Secure World}, die durch kryptographische Methoden gesichert wird.\footnote{Vgl. \cite{sam2017c}}
+
+\subsubsection{Knox Workspace}
+Samsung's Knox Workspace entspricht dem in \cref{sub:Allgemein} beschriebenen \flqq sicheren Ordner\frqq  in der Enterprise-Welt. Das heißt, es exisitiert eine Containerlösung für Mobilgeräte, auf dem geschäftliche Applikationen und Daten von den eigenen getrennt werden können.
+\subsubsection{Knox Configure}
+
+\subsubsection{Knox Manage}
+\subsubsection{Knox Mobile Enrollment}
+\subsubsection{Samsung E-FOTA}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

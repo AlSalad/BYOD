@@ -7,8 +7,11 @@ Scanning style file C:/Users/koopa/AppData/Roaming/MiKTeX/2.9/makeindex/nomencl/
 ** Input style error (file = C:/Users/koopa/AppData/Roaming/MiKTeX/2.9/makeindex/nomencl/nomencl.ist, line = 72):
    -- Unknown specifier lethead_flag.
 ...done (10 attributes redefined, 3 ignored).
-Scanning input file Studienarbeit.nlo....done (5 entries accepted, 0 rejected).
-Sorting entries....done (15 comparisons).
-Generating output file Studienarbeit.nls....done (16 lines written, 0 warnings).
+Scanning input file Studienarbeit.nlo....
+!! Input index error (file = Studienarbeit.nlo, line = 5):
+   -- Incomplete second argument (premature LFD).
+done (9 entries accepted, 1 rejected).
+Sorting entries....done (31 comparisons).
+Generating output file Studienarbeit.nls....done (23 lines written, 0 warnings).
 Output written in Studienarbeit.nls.
 Transcript written in Studienarbeit.ilg.
