@@ -10,8 +10,8 @@ Scanning style file C:/Users/koopa/AppData/Roaming/MiKTeX/2.9/makeindex/nomencl/
 Scanning input file Studienarbeit.nlo....
 !! Input index error (file = Studienarbeit.nlo, line = 5):
    -- Incomplete second argument (premature LFD).
-done (9 entries accepted, 1 rejected).
-Sorting entries....done (31 comparisons).
-Generating output file Studienarbeit.nls....done (23 lines written, 0 warnings).
+done (12 entries accepted, 1 rejected).
+Sorting entries....done (45 comparisons).
+Generating output file Studienarbeit.nls....done (29 lines written, 0 warnings).
 Output written in Studienarbeit.nls.
 Transcript written in Studienarbeit.ilg.
