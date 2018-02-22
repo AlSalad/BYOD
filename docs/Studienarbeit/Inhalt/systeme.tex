@@ -58,8 +58,8 @@ Ist man Besitzer aktueller Samsung-Geräten findet man die Applikation \textit{S
 
 Um den Anforderungen an eine BYOD-Lösung der Loco AG gerecht zu werden, benötigt es eine MDM-Möglichkeit. Dafür muss die IT-Administration, die Möglichkeit haben die eingesetzten Geräte zu verwalten und somit an die firmeninternen Sicherheitsanforderungen anzupassen. Eine mögliche Lösung bietet Samsung mit der kostenpflichtigen Variante Samsung Knox Premium, die im Folgenden nach dem Kriterienkatalog belichtet werden soll. 
 
-\subsection{Knox Platform}
-Das Sicherheitsverfahren der Knox-Plattform besteht, wie in \cref{fig:SamKno1} sichtbar, aus fünf Komponenten.
+\subsection{Knox-Plattform}
+Die Knox-Plattform ist die technische Umsetzung in Hardware und Software, welche standardmäßig in Samsunggeräten vorzufinden ist. Das Sicherheitsverfahren der Knox-Plattform besteht, wie in \cref{fig:SamKno1} sichtbar, aus fünf Komponenten.
 \begin{figure}[hbt]
 \centering
 \includegraphics[width=1\textwidth]{Bilder/sk_1}
@@ -81,17 +81,23 @@ Samsung's Knox Workspace entspricht dem in \cref{sub:Allgemein} beschriebenen \f
 \end{figure}
 
 \subsubsection{Mobile Container Management}
-Um die Container des Samsungs Workspace zu verwalten, wird der \textit{Mobile Container Management} verwendet. Hierbei können Authentifizierungsmöglichkeiten, Datensicherheit,  VPN, Blacklisting und viele weitere Features, die wie andere EMM Lösungen nutzen gemanaged werden.
+Um die Container des Samsungs Workspace zu verwalten, wird das \textit{Mobile Container Management} verwendet. Hierbei können Authentifizierungsmöglichkeiten, Datensicherheit,  VPN, Blacklisting und viele weitere Features, die wie andere EMM Lösungen nutzen gemanaged werden.
 
 \subsubsection{Autentifizierung}
-Um Zugang zum Workspace zu bekommen wird ein doppeltes Autentifizierungsverfahren verwendet. Hierzu muss der Nutzer zuerst den Fingerabdruck oder wenn es das Gerät zulässt, den Iris-Scanner nutzen und als zweites PIN oder Password eingeben. Erst dann ist im Zugriff gewährt.
+Um Zugang zum Workspace zu bekommen wird ein doppeltes Autentifizierungsverfahren verwendet. Hierzu muss der Nutzer zuerst den Fingerabdruck oder wenn es das Gerät zulässt, den Iris-Scanner nutzen und als zweites PIN oder Password eingeben. Erst dann ist ihm Zugriff gewährt.
 Andersrum ist es so möglich den Workplace als Autentifizerung zu nutzen. Hierzu gibt es beispielsweise die Möglichkeit per \textit{Near Field Communication} (NFC) das Smartphone als SmartCard agieren zu lassen und so beispielsweise den Zugriff in Sicherheitsbereiche oder Accounts zu gewähren.
 Welche Methodiken schlussendlich, wie genutzt werden sollen, kann das IT Managagement des MCM's je nach Sicherheitsanforderung im Unternehmen anpassen.
+
+\subsection{Knox Manage}
+
 
 \subsection{Knox Mobile Enrollment}
 Um ein EMM-System aufzubauen, ist es notwendig, dass die Mitarbeiter auch Samsung Knox auf ihrem Endgerät installiert haben. Dies findet häufig per Download vom \textit{Google Play store} statt, dem darauf folgenden Autentifizieren und weiteren Einstellen des Workspaces auf die Unternehmensrichtlinien. 
 Damit diese manuelle Installation durch den Mitarbeiter vermieden und damit Fehler vermieden werden können, gibt es das \textit{Knox Mobile Enrollment} (KME). Ein Enrollment durch KME funktioniert durch einen Link, der je nach Unternehmensbelangen, bspw. per E-Mail oder Interner Webseite an den Mitarbeiter vermittelt wird. Nachdem dieser Link aufgerufen wird, werden nach entsprechenden Autentifizierungsmaßnahmen, alle Einstellungen und Applikationen automatisch konfiguriert.
-\subsubsection{Samsung E-FOTA}
+
+\subsection{Samsung E-FOTA}
+
+\subsection{Kosten}
 
 
 

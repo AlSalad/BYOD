@@ -9,7 +9,7 @@
 #### Samsung Knox:
 - https://www.samsungknox.cn/en/products/compare-features
 - https://github.com/AlSalad/BYOD/blob/master/docs/Quellen/samsung-knox-produktfamilie-workspace-customization-enabled-app-mobil-enrollment.pdf
-
+- https://www.samsungknox.com/en/it-solutions/supported-mdm-vendors
 
 [MobileIron]: https://www.mobileiron.com/de 
 [Markdown-Cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
