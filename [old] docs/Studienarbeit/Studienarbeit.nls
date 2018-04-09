@@ -1,0 +1,31 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{BYOD}]\begingroup Bring Your Own Device\nomeqref {0.0}
+		\nompageref{1}
+  \item [{DHBW}]\begingroup Duale Hochschule Baden-Württemberg\nomeqref {0.0}
+		\nompageref{1}
+  \item [{EMM}]\begingroup Enterprise Mobility Management\nomeqref {0.0}
+		\nompageref{1}
+  \item [{MAM}]\begingroup Mobile Application Management\nomeqref {0.0}
+		\nompageref{1}
+  \item [{MCM}]\begingroup Mobile Content Management\nomeqref {0.0}
+		\nompageref{1}
+  \item [{MDM}]\begingroup Mobile Device Management\nomeqref {0.0}
+		\nompageref{1}
+  \item [{NFO}]\begingroup Near Field Communication\nomeqref {0.0}
+		\nompageref{1}
+  \item [{OS}]\begingroup Operating System\nomeqref {0.0}\nompageref{1}
+  \item [{OSS}]\begingroup Open Source Software\nomeqref {0.0}
+		\nompageref{1}
+  \item [{PKM}]\begingroup Periodic Kernel Measurements\nomeqref {0.0}
+		\nompageref{1}
+  \item [{RKP}]\begingroup Real-Time Kernel Protection\nomeqref {0.0}
+		\nompageref{1}
+  \item [{SLA}]\begingroup Service Level Agreement\nomeqref {0.0}
+		\nompageref{1}
+  \item [{VPN}]\begingroup Virtual Private Network\nomeqref {0.0}
+		\nompageref{1}
+
+\end{thenomenclature}
